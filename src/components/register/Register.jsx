@@ -1,11 +1,14 @@
 import React from 'react'
 import {Link} from "react-router-dom"
+import "../register/register.scss";
+
 
 const Register = () => {
   return (
     <div>
+      <div className='container'>
         <div className="login-card">
-        <div className="column">
+        <div className="column test">
           <h1>Login</h1>
           <p>after logining in, you can enjoy the provoleges</p>
           <form>
@@ -81,6 +84,7 @@ const Register = () => {
           <Link to="/home">Skip</Link>
         </div>
       </div>
+    </div> 
 
     </div>
   )
