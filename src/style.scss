@@ -1,18 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
 
-$theme-color: #0037ff;
+$theme-color: #000000;
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
+body {
+  background-color: rgb(255, 255, 255);
+}
 // body {
-//   font-family: "Poppins", sans-serif;
-//   display: flex;
-//   align-items: center;
-//   min-height: 100vh;
-//   padding: 1.5rem;
 //   &:after {
 //     content: "";
 //     position: fixed;
