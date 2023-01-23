@@ -7,7 +7,7 @@ const Home = () => {
 <header>
 		
 		<div className="navigation">
-			<div className="logo">Headphones</div>
+			<div className="logo">TechnoMania</div>
 			<div className="menu">
 				<ul className="nav">
 					<li><Link className='link' to="/home">Home</Link></li>
@@ -20,7 +20,7 @@ const Home = () => {
 		</div>
 
 		<div className="description">
-			<h1>Headphones model</h1>
+			<h1>Welcome to TechnoMania</h1>
 			<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Силуэт ведущими грустный злых большой, ручеек диких бросил большого щеке переулка имеет однажды на берегу возвращайся! Вскоре они города заманивший, эта свое рекламных, океана переулка снова.</p>
 			
 			<Link to="/products" className="shop">Купить сейчас</Link>
@@ -29,10 +29,10 @@ const Home = () => {
 		<div className="end-head">
 			<div className="post-navigation">
 				<ul className="social">
-					<li><a className="link" href="#"><i class="fab fa-facebook-square"></i></a></li>
-					<li><a className="link" href="#"><i class="fab fa-twitter-square"></i></a></li>
-					<li><a className="link" href="#"><i class="fab fa-linkedin"></i></a></li>
-					<li><a className="link" href="#"><i class="fab fa-tumblr-square"></i></a></li>
+					<li><a className="link" href="#"><i className="fab fa-facebook-square"></i></a></li>
+					<li><a className="link" href="#"><i className="fab fa-twitter-square"></i></a></li>
+					<li><a className="link" href="#"><i className="fab fa-linkedin"></i></a></li>
+					<li><a className="link" href="#"><i className="fab fa-tumblr-square"></i></a></li>
 				</ul>
 			</div>
 		</div>
