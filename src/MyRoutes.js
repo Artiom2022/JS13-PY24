@@ -11,6 +11,7 @@ import Register from "./components/register/Register";
 const MyRoutes = () => {
   return (
     <div>
+
       <Routes>
         <Route
           path="/home"
@@ -47,6 +48,7 @@ const MyRoutes = () => {
           }
         />
       </Routes>
+
     </div>
   );
 };

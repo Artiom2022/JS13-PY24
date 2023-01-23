@@ -28,7 +28,7 @@ body:after {
 .login-card {
   background-color: white;
   border: 1px solid #ddd;
-  box-shadow: 0 10px 50px -30px black;
+  box-shadow: 0 10px 50px -30px black; 
   width: 1200px;
   border-radius: 30px;
   overflow: hidden;
