@@ -10,7 +10,7 @@ const MyRoutes = () => {
             <Route path='/' element={<Register/>}/>
             <Route path='/home' element={<Home/>}/>
             <Route path='/produts' element={<Home/>}/>
-            <Route path='/contats' element={<Home/>}/>
+            <Route path='/adminpage' element={<Home/>}/>
         </Routes>
     </div>
   )
