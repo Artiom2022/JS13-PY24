@@ -1,8 +1,3 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 body {
   margin: 0;
@@ -18,8 +13,8 @@ code {
     monospace;
 }
 
-.container_2 {
-  /* background-color: aquamarine; */
+/* .container_2 {
+  background-color: aquamarine;
 }
 
 .main_pg {
@@ -80,3 +75,27 @@ code {
 .img_home {
   height: 250px;
 }
+
+
+.carousel {
+  width: 870px;
+  height: 500px;
+  margin-left: 500px;
+  margin-right: 500px; 
+  margin-top: 10px;
+}
+
+.skidca {
+   background-color: #0037ff;
+  color: aliceblue;
+  width: 600px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+.bottom_home {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px  ;
+} */
+
