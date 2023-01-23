@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 const Home = () => {
   return (
     <div>
+
 <header>
 		
 		<div className="navigation">
@@ -38,8 +39,12 @@ const Home = () => {
 		</div>
 
 	</header>
+
     </div>
-  )
+    
+  
+
+  )      
 }
 
 export default Home
