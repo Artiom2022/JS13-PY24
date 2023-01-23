@@ -21,7 +21,7 @@ body:after {
   width: 60%;
   height: 100vh;
   -webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 70% 100%);
-          clip-path: polygon(0 100%, 0 0, 100% 0, 70% 100%);
+  clip-path: polygon(0 100%, 0 0, 100% 0, 70% 100%);
   z-index: -1;
 }
 
@@ -69,4 +69,4 @@ body:after {
   border-radius: 50px;
   cursor: pointer;
   transition: all 3s;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

@@ -2,14 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../register/register.scss";
 
-const Register = () => {
+const Login = () => {
   return (
     <div>
       <div className="container">
         <div className="login-card">
           <div className="column test">
-            <h1>Register</h1>
-            <p>after registration, you can enjoy the provoleges</p>
+            <h1>Login</h1>
+            <p>after logining in, you can enjoy the provoleges</p>
             <form>
               <div className="form-item">
                 <input
@@ -30,7 +30,8 @@ const Register = () => {
                 <label for="rememberMe"> Remember Me</label>
               </div>
               <div className="flex">
-                <button type="button">Sign Up</button>
+                <button type="button">Sign In</button>
+                <a href="#">Reset Your Password now</a>
               </div>
               <p className="sign-in-methods">Other sign-in methods</p>
               <div className="social-buttons">
@@ -90,8 +91,10 @@ const Register = () => {
           </div>
           <div className="column">
             <h2>Welcome to our Shop</h2>
-            <p>If you have an account, would you like to Log In right now</p>
-            <Link to="/login">Log In</Link>
+            <p>
+              If you dont have an account, would you like to register right now
+            </p>
+            <Link to="/register">Register</Link>
             <Link to="/home">Skip</Link>
           </div>
         </div>
@@ -100,4 +103,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default Login;

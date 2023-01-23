@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
 
-$theme-color: #0037ff;
+$theme-color: #011352;
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: #111 !important;
 }
 
 .container {
@@ -45,8 +49,7 @@ $theme-color: #0037ff;
     padding: 4rem;
 
     &:last-child {
-      background: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg ")
-        center;
+      background: url("https://mfiles.alphacoders.com/832/832128.jpg") center;
       background-size: cover;
       position: relative;
       display: flex;
